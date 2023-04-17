@@ -1,15 +1,16 @@
 # spring-boot-and-mysql-docker-compose
 A example docker-compose  for Java and MySQL database. The template project exposes 8080 HTTP endpoint.
 
+### Requirements
+- Docker and docker compose
+
 ### Technologies
-- Java 17
+- Java 17 (openjdk:17-alpine)
 - Spring Boot 3 
 - Docker 
 - MySQL 8
 - Flyway 
 
-### Requirements
-- Docker and docker compose
 
 ### Demo 
 **Step 1 - run the application** To run the application just run the following command:
