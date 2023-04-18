@@ -28,6 +28,8 @@ services:
       - MYSQL_DATABASE=docker-network
     ports:
       - 3307:3306
+    volumes:
+      - /var/lib/docker/volumes/mysql:/var/lib/mysql
 networks:
   docker-network:
 
