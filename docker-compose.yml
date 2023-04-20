@@ -1,6 +1,7 @@
 version: '3'
 services:
   app:
+    container_name: spring-app
     build:
       dockerfile: ./Dockerfile
     ports:
@@ -20,6 +21,7 @@ services:
            "spring.datasource.driver-class-name" : "com.mysql.cj.jdbc.Driver"
          }'
   database:
+    container_name: database
     image: mysql:8
     networks:
       - docker-network
